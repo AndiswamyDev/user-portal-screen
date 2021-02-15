@@ -1,0 +1,70 @@
+body {
+    background: #752e97;
+    font-family: "Barlow", sans-serif !important;
+}
+
+button.primary {
+    background: #752e97;
+    border: #752e97;
+}
+
+button.primary:hover,
+.form-group button:hover {
+    background: #752e97;
+    color: #fff;
+}
+
+button.primary:focus,
+.form-group button:focus {
+    background: #752e97;
+}
+
+.login-section {
+    margin-top: 15%;
+}
+
+.login-section input {
+    border-color: transparent;
+    background-color: transparent;
+    font-weight: bold;
+    border-bottom-color: #752e97;
+}
+
+.form-group button {
+    border: none;
+    background-color: #752e97;
+}
+
+button:active,
+.show>.btn-primary.dropdown-toggle,
+.show>.btn-primary.dropdown-toggle:focus {
+    background-color: #752e97 !important;
+    box-shadow: none !important
+}
+
+.login-section a {
+    color: #752e97;
+    font-weight: bold;
+}
+
+.login-section input:focus {
+    box-shadow: inset 0 0px 0px rgba(119, 12, 12, 0.075);
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom-color: #752e97;
+    font-weight: 200;
+}
+
+.login-group {
+    width: 30%;
+}
+
+.login-group button,
+.signin-group button {
+    float: right;
+}
+
+.login-user-icon {
+    width: 22vw !important;
+    height: 6vh;
+}
